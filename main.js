@@ -118,7 +118,6 @@ const subscribePlayerChatEventCommand = () => {
     return JSON.stringify({
         "body": {
             "eventName": "PlayerMessage"
-            //"eventName": "PlayerChat"
         },
         "header": {
             "requestId": uuid(), // UUID
