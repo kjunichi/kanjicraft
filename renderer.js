@@ -18,7 +18,7 @@ const genFontData = (moji) => {
   cs.width = fsize
   cs.height = fsize + 2
   const ctx = cs.getContext("2d")
-  ctx.font = `${fsize}px sans-serif`
+  ctx.font = `${fsize}px "UD Digi Kyokasho N-R"`
   ctx.textBaseline = "bottom"
   ctx.fillText(target, 0, fsize + 1);
   const simg = ctx.getImageData(0, 0, cs.width, cs.height)
